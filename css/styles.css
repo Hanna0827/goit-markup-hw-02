@@ -233,3 +233,6 @@ color:  #FFF;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.link {
+    text-decoration: none;
+}

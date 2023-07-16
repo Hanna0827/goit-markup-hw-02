@@ -14,7 +14,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--color-slate);
     background-color: #FFFFFF;
 
 }
@@ -30,7 +30,7 @@ body {
 /*----------------------------HEADER-------------------*/
 
 .header-logo {
-        color: var(--navyblue, #4D5AE5);
+        color: var(--color-iris, #4d5ae5);
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 800;
@@ -41,7 +41,7 @@ body {
 }
 
 .header-logo-color {
-color: #4D5AE5;
+color: var(--color-navy-blue, #2e2f42);
 }
 
 
@@ -50,8 +50,15 @@ color: #4D5AE5;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: var(--color-navy-blue, #2e2f42);
+}
+.header-menu-link:hover {
+    color: #404bbf;
 }
 
+.header-menu-link:focus {
+    color: #404bbf;
+}
 .header-address {
         font-size: 16px;
         font-style: normal;

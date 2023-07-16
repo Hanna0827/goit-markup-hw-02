@@ -94,6 +94,7 @@ color:  #FFF;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -133,7 +134,7 @@ color:  #FFF;
 }
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-heading {
@@ -145,7 +146,6 @@ color:  #FFF;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: #FFFFFF;
 }
 
 .team-name {
@@ -186,35 +186,40 @@ color:  #FFF;
 }
 
 .footer-text {
-        color: #F4F4FD;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    ine-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
+/*----------------------------PORTFOLIO-------------------*/
+
+
+
+
 .portfolio-btn-all {
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background-color: #404BBF;
+    color: #4D5AE5;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
 }
 
 .portfolio-btn-menu {
-        color: #4D5AE5;
-        text-align: center;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        background-color: #F4F4FD;
+    color: #4D5AE5;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
 }
 
 .info-name {
@@ -227,8 +232,8 @@ color:  #FFF;
 }
 
 .info-text {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }

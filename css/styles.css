@@ -1,11 +1,37 @@
+:root {
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navy-blue: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-light-slate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navy-blue-modal: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;
+}
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--slate);
+    background-color: #FFFFFF;
 
 }
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/*----------------------------HEADER-------------------*/
 
 .header-logo {
-        color: #2E2F42;
-        font-family: Raleway;
+        color: var(--navyblue, #2E2F42);
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
@@ -15,16 +41,9 @@ body {
 }
 
 .header-logo-color {
-color: #4D5AE5;;
+color: #4D5AE5;
 }
 
-.link {
-    text-decoration: none;
-}
-
-.list {
-    list-style-type: none;
-}
 
 .header-menu-link {
         font-size: 16px;
@@ -119,7 +138,6 @@ color:  #FFF;
 }
 
 .team-text {
-    color: #434455;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -189,10 +207,8 @@ color:  #FFF;
 }
 
 .info-text {
-    color: #434455;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
